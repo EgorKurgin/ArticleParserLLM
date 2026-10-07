@@ -1,12 +1,5 @@
 using JSON3
 
-"""
-    save_articles(articles::Vector{Article}, path::String)
-
-Сохраняет статьи в файл формата JSON Lines (одна статья = одна строка).
-Создаёт директории по пути, если их нет.
-Возвращает количество записанных статей.
-"""
 function save_articles(articles::Vector{Article}, path::String)
     dir = dirname(path)
     isempty(dir) || mkpath(dir)

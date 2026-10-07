@@ -1,8 +1,3 @@
-"""
-    Article
-
-Одна статья из RSS-ленты
-"""
 struct Article
     id            ::String   
     title         ::String

@@ -15,8 +15,11 @@ include("save.jl")
 
 include("llm_client.jl")
 include("llm_filter.jl")
+include("llm_summarize.jl")
 
-# Публичный API
+include("load.jl")
+include("process.jl")
+export load_articles, process_articles
 export Article, Config
 export load_config
 export build_rss_url, download_rss, parse_rss
@@ -24,5 +27,6 @@ export save_articles
 
 export ollama_generate
 export is_relevant
+export summarize
 
-end # module ArticleParser
+end
