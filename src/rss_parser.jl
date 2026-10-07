@@ -12,7 +12,7 @@ function parse_rss(xml_path::String)
     doc   = readxml(xml_path)
     items = findall(RSS_ITEM, doc)
 
-    articles = []
+    articles = Article[]
     for item in items
         title = text_of(item, RSS_TITLE)
         link  = text_of(item, RSS_LINK)
