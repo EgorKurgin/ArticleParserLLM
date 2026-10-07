@@ -1,0 +1,11 @@
+/data/
+*.xml
+
+config.toml
+
+.vscode
+
+*.jl.cov
+*.jl.*.cov
+deps/deps.jl
+/docs/build/

@@ -1,0 +1,4 @@
+name = "ArticleParser"
+uuid = "81522b58-3d85-4c59-8a29-26fa250cd656"
+version = "0.1.0"
+authors = ["Egor Kurgin <kurginegor1901@gmail.com>"]
