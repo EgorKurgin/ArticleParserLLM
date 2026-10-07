@@ -1,0 +1,9 @@
+[categories]
+list = ["quant-ph", "cond-mat.str-el"]
+
+[download]
+out_dir = "test_out/rss"
+timeout = 30.0
+
+[paths]
+data_dir = "test_data"
