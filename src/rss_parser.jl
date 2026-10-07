@@ -43,7 +43,7 @@ function parse_rss(xml_path::String)
             title,
             abstract,
             pdf_url,
-            link,            # abs_url
+            link,            
             announce_type,
             date,
         ))
